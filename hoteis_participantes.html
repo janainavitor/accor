@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hotéis Participantes | Accor Meeting Rewards</title>
+    <script type="text/javascript" async="" src="js/ga.js"></script>
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $('.hoteis-box ul li h3').each(function() {
+                $(this).click(function() {
+
+                    var ativo = $(this).parent().find('.status-info').css('display');
+
+                    if (ativo == 'none') {
+                        $(this).parent().find('.status-info').slideDown();
+                        $(this).parent().find('.bt-hoteis span').text('-');
+                        $(this).parent().css('border-bottom', 'none');
+                    }
+                    else {
+                        $(this).parent().find('.status-info').slideUp();
+                        $(this).parent().find('.bt-hoteis span').text('+');
+                        $(this).parent().css('border-bottom', 'dotted 1px #828485');
+                    }
+
+                });
+
+            });
+
+
+            $('.regiao').each(function() {
+
+                $(this).click(function() {
+                    var regiao = $(this).parent().find('.info-regiao').css('display');
+                    if (regiao == 'none') {
+                        $(this).parent().find('.info-regiao').slideDown();
+                        $(this).parent().find('.regiao span').text('-');
+                    }
+                    else {
+                        $(this).parent().find('.info-regiao').slideUp();
+                        $(this).parent().find('.regiao span').text('+');
+                    }
+
+                });
+
+            });
+
+        });
+ 
+    </script>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <h2 class="aba-titulo">
+                <span>
+                    Hotéis participantes
+                </span>
+            </h2>
+            <p style="float: right;">
+                <small>
+                    (**) Hotéis que não pontuam A&amp;B</small></p>
+        <div id="hoteis-participantes">
+            <div class="hoteis-box">
+                <img src="imagens/img-hoteis-norte.png" alt="Região Norte">
+                <h2 class="titulo-regioes regiao-norte">Norte </h2>
+                <ul>            
+                    <li>
+                        <h3 class="bt-hoteis">
+                            Amazonas
+                            <span>+</span>
+                        </h3>
+                        <div class="status-info">              
+                            <ul class="sub-categoria">                                    
+                                <li>
+                                    <h3 class="regiao">
+                                        <span>+</span>Lorem Ipsum
+                                    </h3>
+                                    <div class="info-regiao">
+                                        <p>
+                                            <strong>Loren</strong>:
+                                            500,00</p>
+                                        <p>
+                                            <strong>ENDEREÇO</strong>:
+                                            Av. Dolor Sit Amet, 1.000
+                                            <br>
+                                            LOREM - Ipsum</p>
+                                        <p>
+                                            <strong>TELEFONE</strong>:
+                                            0000-0000</p>
+                                    </div>
+                                </li>                                
+                            </ul>                                
+                        </div>   
+                    </li>     
+                </ul>                
+            </div>
+            <div class="hoteis-box">
+                <img src="imagens/img-hoteis-nordeste.png" alt="Região Nordeste">
+                <h2 class="titulo-regioes regiao-nordeste">Nordeste</h2>                
+                <ul>                    
+                    <li>
+                        <h3 class="bt-hoteis">
+                            Bahia
+                            <span>+</span></h3>
+                        <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>   
+                </li>                    
+                <li>
+                    <h3 class="bt-hoteis">
+                        Ceará
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                    <ul class="sub-categoria">                                    
+                        <li>
+                            <h3 class="regiao">
+                                <span>+</span>Lorem Ipsum
+                            </h3>
+                            <div class="info-regiao">
+                                <p>
+                                    <strong>Loren</strong>:
+                                    500,00</p>
+                                <p>
+                                    <strong>ENDEREÇO</strong>:
+                                    Av. Dolor Sit Amet, 1.000
+                                    <br>
+                                    LOREM - Ipsum</p>
+                                <p>
+                                    <strong>TELEFONE</strong>:
+                                    0000-0000</p>
+                            </div>
+                        </li>                                
+                    </ul>                                
+                </div>   
+                </li>                    
+                <li>
+                    <h3 class="bt-hoteis">
+                        Pernambuco
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>   
+                </li>                    
+                <li>
+                    <h3 class="bt-hoteis">
+                        Sergipe
+                        <span>+</span>
+                    </h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>   
+                </li>
+            </ul>                
+        </div>
+        <div class="hoteis-box">
+            <img src="imagens/img-hoteis-centro-oeste.png" alt="Região Centro Oeste">
+            <h2 class="titulo-regioes regiao-centro-oeste">Centro Oeste</h2>            
+            <ul>                    
+                <li>
+                    <h3 class="bt-hoteis">
+                        Mato Grosso do Sul                                
+                        <span>+</span>
+                    </h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>   
+                </li>     
+            </ul>          
+        </div>  
+        <div class="hoteis-box">
+            <img src="imagens/img-hoteis-sudeste.png" alt="Região Sudeste">
+            <h2 class="titulo-regioes regiao-sudeste">Sudeste</h2>        
+            <ul>    
+                <li>
+                    <h3 class="bt-hoteis">
+                        São Paulo
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>           
+                <li>
+                    <h3 class="bt-hoteis">
+                        Rio de Janeiro 
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>   
+                </li>        
+                <li>
+                    <h3 class="bt-hoteis">
+                        Belo Horizonte
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>   
+                </li>
+            </ul>            
+        </div>
+        <div class="hoteis-box">
+            <img src="imagens/img-hoteis-sul.png" alt="Região Sul"> 
+            <h2 class="titulo-regioes regiao-sul">Sul</h2>       
+            <ul>            
+                <li>
+                    <h3 class="bt-hoteis">
+                        Paraná
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>   
+                <li>
+                    <h3 class="bt-hoteis">
+                        Santa Catarina
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>   
+                </li>
+                 <li>
+                    <h3 class="bt-hoteis">
+                        Rio Grande do Sul
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                                
+                        </ul>                                
+                    </div>    
+                </ul>         
+            </div>
+        <div id="hoteis-participantes-2">
+            <div class="hoteis-box demais-regioes">
+            <img src="imagens/img-hoteis-outras-regioes.png" alt="Outras Regiões"> 
+            <h2 class="titulo-regioes outras-regioes">Demais Países</h2>       
+            <ul>            
+                <li>
+                    <h3 class="bt-hoteis">
+                        Argentina
+                        <span>+</span></h3>
+                    <div class="status-info">              
+                        <ul class="sub-categoria">                                    
+                            <li>
+                                <h3 class="regiao">
+                                    <span>+</span>Lorem Ipsum
+                                </h3>
+                                <div class="info-regiao">
+                                    <p>
+                                        <strong>Loren</strong>:
+                                        500,00</p>
+                                    <p>
+                                        <strong>ENDEREÇO</strong>:
+                                        Av. Dolor Sit Amet, 1.000
+                                        <br>
+                                        LOREM - Ipsum</p>
+                                    <p>
+                                        <strong>TELEFONE</strong>:
+                                        0000-0000</p>
+                                </div>
+                            </li>                          
+                        </ul>                             
+                    </div>                
+                </ul>                       
+            </div>    
+        </ul>  
+     </div> 
+                    <br class="clear"> 
+   </div>
+</div>
+</body>
+</html>

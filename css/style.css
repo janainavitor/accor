@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'segoe_lightregular';
+    src: url('fonts/segoel-webfont.eot');
+    src: url('fonts/segoel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/segoel-webfont.woff') format('woff'),
+         url('fonts/segoel-webfont.ttf') format('truetype'),
+         url('fonts/segoel-webfont.svg#segoe_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(../imagens/bg-geral.jpg);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:normal;
+}
+#container{
+	margin: 0 auto;
+	width:920px;
+	position:relative;
+	background: url("../imagens/bg-conteudo.jpg");
+	height:auto;
+	padding:20px 20px;
+	color:#626263;
+}
+#content p {
+    margin-bottom: 20px;
+}
+#content small {
+    font-size: 0.8em;
+    margin-left: 20px;
+    display: block;
+}
+#content .aba-titulo{
+	color:#fff;
+	font-size:18px;
+	padding:0 30px 0 0;
+	margin:0 0 30px -32px;
+	text-transform:uppercase;
+	font-family:'Conv_SegoeCRg', "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background: url(../imagens/tab-blue-right.png) no-repeat top right;
+	float: left;
+	font-weight: normal;
+}
+#content .aba-titulo span {
+	background: url(../imagens/tab-blue-left.png) no-repeat;
+	display: block;
+	height:36px;
+	padding:4px 0 0 30px;
+}
+/* hoteis-participantes */
+#hoteis-participantes{
+	width:920px;
+	min-height:500px;
+	clear: both;
+}
+#hoteis-participantes .hoteis-box{
+	float:left;
+	width:138px;
+	height:auto;
+	padding: 0 25px;
+	background:url(../imagens/bg-barra-vert-hoteis.jpg) right top no-repeat;
+}
+#hoteis-participantes .hoteis-box img {
+	width: 138px;
+}
+#hoteis-participantes .hoteis-box:first-child {
+    padding-left: 0;
+}
+#hoteis-participantes .hoteis-box ul{
+	float:left;
+	display:block;
+	width:100%;
+	height:auto;
+}
+#hoteis-participantes .hoteis-box ul li{
+	float:left;
+	width:136px;
+	list-style:none;
+	padding:5px 0;
+	border-bottom: dotted 1px #828485;
+	position: relative;
+}
+#hoteis-participantes .hoteis-box ul li h3{
+	font-size:12px;
+	font-weight:normal;
+	cursor:pointer;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#hoteis-participantes .hoteis-box ul li h3 span{
+	position: absolute;
+	top: 4px;
+	right: 0;
+	color:#ff8a00;
+}
+#hoteis-participantes .hoteis-box ul li div{
+	display: none;
+	margin-top: 10px;
+}
+#hoteis-participantes .hoteis-box ul li div p{
+	font-size:10px;
+	margin:5px 0;
+}
+#hoteis-participantes .hoteis-box ul li div .sub-categoria{
+	float:left;
+	display:block;
+}
+#hoteis-participantes .hoteis-box ul li div .sub-categoria li{
+	float:left;
+	border-bottom:none;
+	border-bottom: dotted 1px #828485;
+  position: relative;
+  width:160px;
+}
+#hoteis-participantes .hoteis-box ul li div .sub-categoria > li > h3{
+	font-size:12px;
+	font-weight:normal;
+	cursor:pointer;
+	border-bottom:none;
+  padding-left: 30px;
+}
+#hoteis-participantes .hoteis-box ul li div .sub-categoria > li > div p{
+	font-size:10px;
+	margin:5px 0 0;
+}
+#hoteis-participantes .hoteis-box ul li div .sub-categoria li h3 span{
+  left: 15px;
+	top: 4px;
+  position: absolute;
+}
+#hoteis-participantes .hoteis-box ul li div .sub-categoria .info-regiao{
+  border-top: 1px solid #CCCCCC;
+  color: #999999;
+  display: none;
+  margin: 5px 0 0 30px;
+}
+#hoteis-participantes .hoteis-box .titulo-regioes{
+  font-family: 'segoe_lightregular', Arial;	
+  font-size: 20px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: -1.5px;
+  text-align: center;
+  padding: 15px 0;
+}
+#hoteis-participantes .hoteis-box .regiao-norte{
+	color: #3d63a0;
+	margin: 0px 5px 0px 0px;
+}
+#hoteis-participantes .hoteis-box .regiao-nordeste{
+	color: #0f6db3;
+}
+#hoteis-participantes .hoteis-box .regiao-centro-oeste{
+	color: #793d8f
+}
+#hoteis-participantes .hoteis-box .regiao-sudeste{
+	color: #ea7b19;
+}
+#hoteis-participantes .hoteis-box .regiao-sul{
+	color: #9fad00;
+}
+#hoteis-participantes .hoteis-box .outras-regioes{
+color: #aa7f35;
+}
+#hoteis-participantes .demais-regioes{
+	margin: 100px 0px 0px 0px;
+}
+#hoteis-participantes-2{
+	clear: both;
+}
+.clear{
+	clear: both;
+}
